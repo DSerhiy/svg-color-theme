@@ -1,0 +1,31 @@
+
+body {  font-family: "Roboto", sans-serif;}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 4px; 
+  background-color: rgba(233, 233, 233, 0.795);
+}
+.svg-icon {
+  width: 110px;
+}
+
+/*initial color theme */
+.initial-theme .color-1 { fill: #A7A9AC; }
+.initial-theme .color-2 { fill: #3C92CA; }
+
+/*ventage color theme */
+.ventage-theme .color-1 { fill: #A9A098; }
+.ventage-theme .color-2 { fill: #3B443C; }
+
+/*retro-futurism color theme */
+.retro-theme .color-1 { fill: #C9C9C9; }
+.retro-theme .color-2 { fill: #932ACC; }
+
+/*nadia color theme */
+.nadia-theme .color-1 { fill: #1C2E42; }
+.nadia-theme .color-2 { fill: #FF9138; }
